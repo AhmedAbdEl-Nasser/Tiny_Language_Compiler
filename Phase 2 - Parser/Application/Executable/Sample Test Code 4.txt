@@ -1,0 +1,17 @@
+/* Sample code 4 */
+/* Fibonacci Series: 0, 1, 1, 2, 3, 5, 8, 13 etc. */
+read n; /* n is the number of elements */
+i := 2;
+if n > (i - 1) then
+  n1 := 0;
+  n2 := 1;
+  write n1;
+  write n2;
+  repeat
+    n3 := n1 + n2;
+    write n3;
+	n1 := n2;
+	n2 := n3;
+    i := i + 1
+  until i > n 
+end

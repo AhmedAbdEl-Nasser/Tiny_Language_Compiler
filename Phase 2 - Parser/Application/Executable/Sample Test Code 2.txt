@@ -1,0 +1,21 @@
+/*Sample code 2*/
+/* GCD  of two integer numbers */
+read x;
+read y;
+min := 0-1;
+if x < y then /* min of x & y */
+  min := x 
+else
+  min := y
+end;
+i := min;
+repeat
+  if ((x - i * (x / i) = 0)) then 
+    if (y - i * (y / i) = 0) then
+      write i;
+      i := 0
+    else i := i - 1
+	end
+  else write 0-1
+  end	
+until i > 0

@@ -1,0 +1,13 @@
+/* Sample code 3 */
+read x;
+y := 1;
+repeat 
+  if x + 1 * 6 - 1 < 1000 then
+    x := x * 2 + 1;
+	y := y + 1
+  else 
+    y := 10;  
+	write x > 1001 
+  end
+until y := 10;
+write x < 1001
